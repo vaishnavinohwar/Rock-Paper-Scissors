@@ -56,7 +56,7 @@ img{
  font-size:4rem;
 
 }
-.msg-container{
+/* .msg-container{
     margin-top: 5rem;
 }
 
@@ -69,4 +69,26 @@ img{
     padding: 1rem;
     border-radius: 1rem;
     
+} */
+.msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: #775B59;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Modern Hover Effect */
+#msg:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #5a3d3b;
 }
